@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+.cvs-padding{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.loading-image{
+  width: 75px;
+  height: 75px;
+  display:block;
+  align-self:center;
+  text-align: center;
+  background: url('../../assets/images/loader.png') no-repeat;
+  animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.show{
+  display: block;
+}
+.hide {
+  display: none;
+}

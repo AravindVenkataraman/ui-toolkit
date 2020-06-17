@@ -1,0 +1,30 @@
+@import "./../../../node_modules/@cvsdigital_ui-arch/design-tokens/dist/scss/_variables.scss";
+
+@mixin example-light-theme () {
+  --vinoth: red;
+  --app-plain-color: #{$color-background-button-plain-base};
+  --app-primary-color: #{$color-brand-primary-light};
+  --app-secondary-color: #{$color-background-button-secondary-base};
+  --app-danger-color: #{$color-background-button-danger-base};
+  --app-light-color: #{$color-background-button-secondary-active};
+  --app-font-family: #{$asset-font-opensans-name}; //Arial, Helvetica, sans-serif;
+  --app-font-size: #{$size-font-small};
+  --app-primary-text-color: #{$color-background-text-primary-light};
+  --app-secondary-text-color: #{$color-background-text-secondary-light};
+  --app-danger-text-color: #{$color-background-text-danger-light};
+  --app-plain-text-color: #{$color-background-text-plain-light};
+}
+
+@mixin example-dark-theme () {
+  --app-plain-color: #{$color-background-button-plain-base};
+  --app-primary-color: #{$color-brand-primary-dark};
+  --app-secondary-color: #{$color-background-button-secondary-base};
+  --app-danger-color: #{$color-background-button-danger-base};
+  --app-light-color: #{$color-background-button-secondary-active};
+  --app-font-family: #{$asset-font-opensans-name}; //Arial, Helvetica, sans-serif;
+  --app-font-size: #{$size-font-small};
+  --app-primary-text-color: #{$color-background-text-primary-light};
+  --app-secondary-text-color: #{$color-background-text-secondary-light};
+  --app-danger-text-color: #{$color-background-text-danger-light};
+  --app-plain-text-color: #{$color-background-text-plain-light};
+}

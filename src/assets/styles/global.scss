@@ -1,0 +1,13 @@
+@import "./_themes";
+
+:root {
+  @include example-light-theme();
+}
+
+[theme="dark"] {
+  @include example-dark-theme();
+}
+
+[theme="light"] {
+  @include example-light-theme();
+}
